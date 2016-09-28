@@ -1,6 +1,6 @@
 {
   "name": "angular-transition-sugar",
-  "version": "0.4.1",
+  "version": "0.4.4",
   "description": "Simple AngularJS extensions to facilitate transition to Angular",
   "main": "dist/Component.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "prepublish": "npm run build",
     "version": "npm run build && git add --force dist/ && git add package.json",
     "postversion": "git rm -r dist/ && git commit -m 'CLEAN AFTER RELEASE'",
-    "link": "npm run build && jspm link github:noelmace/angularjs-decorators@dev -y"
+    "link": "npm run build && jspm link github:Sedona-Solutions/angular-transition-sugar@dev -y"
   },
   "repository": {
     "type": "git",
